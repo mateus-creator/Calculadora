@@ -10,14 +10,14 @@ function calcularValores() {
         resultado = valor1 + valor2;
     }
 
-    if(operacao === "-") {
+    else if(operacao === "-") {
         resultado = valor1 - valor2;
     }
-    if (operacao === "*") {
+    else if (operacao === "*") {
         resultado = valor1 * valor2;
     }
 
-    if (operacao === "/") {
+    else if (operacao === "/") {
         resultado = valor1 / valor2;
     }
 
